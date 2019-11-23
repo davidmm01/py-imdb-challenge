@@ -1,12 +1,19 @@
 import argparse
-from bs4 import BeautifulSoup
-from classes import Actor, Movie
-import imdb_calls
 import datetime
 import json
 
+from bs4 import BeautifulSoup
+
+import imdb_calls
+from classes import Actor, Movie
+
 
 def get_arguments():
+    """
+        returns: actor_search_term, the actor being requested
+                 descending flag, if True will reverse order of output
+                 save-to-disk flag, if True will trigger method to save to disk
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "actor", help="name of actor for which films will be displayed", type=str
@@ -33,10 +40,10 @@ def get_arguments():
 
 
 def get_actor(actor_search_term):
-    '''
+    """
         input: actor_search_term, the term to match to an imdb actor
         returns: actor, an instance of Actor object
-    '''
+    """
 
     raw_html = imdb_calls.retrieve_celebs(actor_search_term)
 
@@ -106,10 +113,10 @@ def get_actor(actor_search_term):
 
 
 def get_movies(actor):
-    '''
+    """
         input: actor, an instance of Actor
         returns: movies, list of Movie objects
-    '''
+    """
 
     raw_html = imdb_calls.retrieve_movies(actor.slug)
 
@@ -138,6 +145,12 @@ def get_movies(actor):
 
 
 def display_output(movies, order):
+    """
+        responsible for printing output to the user
+        input: movies, a list of Movie objects
+               order, 1 or -1, controls which way movies are represented
+    """
+
     print("Movies:")
     count = 1
     for movie in movies[::order]:
@@ -146,6 +159,13 @@ def display_output(movies, order):
 
 
 def write_to_disk(actor, movies, order):
+    """
+        responsible for printing output to the user
+        input: actor, an instance of Actor object
+               movies, a list of Movie objects
+               order, 1 or -1, controls which way movies are represented
+    """
+
     contents = dict(
         actor=actor.name,
         movies=[dict(title=movie.title, year=movie.year) for movie in movies[::order]],
@@ -159,7 +179,7 @@ def main():
 
     actor = get_actor(actor_search_term)
     movies = get_movies(actor)
-    
+
     display_output(movies, order)
 
     if save_to_disk:

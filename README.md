@@ -20,9 +20,9 @@ First create a safe environment to run the program from:
 
 Optional arguments:
 
-`--descending` can be supplied to return the films from most to least recent
+`--descending` outputs the films from most to least recent (default is least to most)
 
-`--save-to-disk` will save the additionally save the output of the program in JSON to a file on disk
+`--save-to-disk` additionally save the output of the program in JSON to a file on disk
 
 ## Example 
 
@@ -57,3 +57,8 @@ This project makes use of pip-tool's `pip-compile` tool for managing its require
 `pip-compile`
 
 `pip3 install -rrequirements.txt`
+
+## Testing
+
+`pytest --isort --flake8`
+
