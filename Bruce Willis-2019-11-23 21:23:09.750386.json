@@ -1,0 +1,505 @@
+{
+    "actor": "Bruce Willis",
+    "movies": [
+        {
+            "title": "McClane",
+            "year": "Upcoming"
+        },
+        {
+            "title": "Run of the Hitman",
+            "year": "Upcoming"
+        },
+        {
+            "title": "The Long Night",
+            "year": "2020"
+        },
+        {
+            "title": "Anti-Life",
+            "year": "2020"
+        },
+        {
+            "title": "Trauma Center",
+            "year": "2019"
+        },
+        {
+            "title": "10 Minutes Gone",
+            "year": "2019"
+        },
+        {
+            "title": "Between Two Ferns: The Movie",
+            "year": "2019"
+        },
+        {
+            "title": "Motherless Brooklyn",
+            "year": "2019"
+        },
+        {
+            "title": "The Orville",
+            "year": "2019"
+        },
+        {
+            "title": "The Lego Movie 2: The Second Part",
+            "year": "2019"
+        },
+        {
+            "title": "Glass",
+            "year": "2019"
+        },
+        {
+            "title": "Da hong zha",
+            "year": "2018"
+        },
+        {
+            "title": "Reprisal",
+            "year": "2018/I"
+        },
+        {
+            "title": "Death Wish",
+            "year": "2018"
+        },
+        {
+            "title": "Acts of Violence",
+            "year": "2018"
+        },
+        {
+            "title": "First Kill",
+            "year": "2017"
+        },
+        {
+            "title": "Once Upon a Time in Venice",
+            "year": "2017"
+        },
+        {
+            "title": "Split",
+            "year": "2016/IX"
+        },
+        {
+            "title": "Marauders",
+            "year": "2016"
+        },
+        {
+            "title": "Precious Cargo",
+            "year": "2016"
+        },
+        {
+            "title": "Extraction",
+            "year": "2015/II"
+        },
+        {
+            "title": "Rock the Kasbah",
+            "year": "2015"
+        },
+        {
+            "title": "Vice",
+            "year": "2015"
+        },
+        {
+            "title": "The Prince",
+            "year": "2014/I"
+        },
+        {
+            "title": "Sin City: A Dame to Kill For",
+            "year": "2014"
+        },
+        {
+            "title": "Family Guy: The Quest for Stuff",
+            "year": "2014"
+        },
+        {
+            "title": "RED 2",
+            "year": "2013"
+        },
+        {
+            "title": "G.I. Joe: Retaliation",
+            "year": "2013"
+        },
+        {
+            "title": "A Good Day to Die Hard",
+            "year": "2013"
+        },
+        {
+            "title": "Fire with Fire",
+            "year": "2012/II"
+        },
+        {
+            "title": "Looper",
+            "year": "2012"
+        },
+        {
+            "title": "The Expendables 2: Back for War",
+            "year": "2012"
+        },
+        {
+            "title": "Moonrise Kingdom",
+            "year": "2012"
+        },
+        {
+            "title": "The Cold Light of Day",
+            "year": "2012"
+        },
+        {
+            "title": "Lay the Favorite",
+            "year": "2012"
+        },
+        {
+            "title": "The Black Mamba",
+            "year": "2011/I"
+        },
+        {
+            "title": "Catch .44",
+            "year": "2011"
+        },
+        {
+            "title": "Setup",
+            "year": "2011/I"
+        },
+        {
+            "title": "Gorillaz Featuring Mos Def and Bobby Womack: Stylo",
+            "year": "2010"
+        },
+        {
+            "title": "RED",
+            "year": "2010"
+        },
+        {
+            "title": "The Expendables",
+            "year": "2010"
+        },
+        {
+            "title": "Cop Out",
+            "year": "2010"
+        },
+        {
+            "title": "Surrogates",
+            "year": "2009"
+        },
+        {
+            "title": "Late Show with David Letterman",
+            "year": "2008-2009"
+        },
+        {
+            "title": "What Just Happened",
+            "year": "2008"
+        },
+        {
+            "title": "Assassination of a High School President",
+            "year": "2008"
+        },
+        {
+            "title": "Live Free or Die Hard Gag Reel",
+            "year": "2007"
+        },
+        {
+            "title": "Planet Terror",
+            "year": "2007"
+        },
+        {
+            "title": "Nancy Drew",
+            "year": "2007"
+        },
+        {
+            "title": "Die Hard 4.0",
+            "year": "2007"
+        },
+        {
+            "title": "Perfect Stranger",
+            "year": "2007"
+        },
+        {
+            "title": "Vanity Fair: Killers Kill, Dead Men Die",
+            "year": "2007"
+        },
+        {
+            "title": "Grindhouse",
+            "year": "2007"
+        },
+        {
+            "title": "Hammy's Boomerang Adventure",
+            "year": "2006"
+        },
+        {
+            "title": "The Astronaut Farmer",
+            "year": "2006"
+        },
+        {
+            "title": "Fast Food Nation",
+            "year": "2006"
+        },
+        {
+            "title": "That '70s Show Special: The Final Goodbye",
+            "year": "2006"
+        },
+        {
+            "title": "Over the Hedge",
+            "year": "2006"
+        },
+        {
+            "title": "16 Blocks",
+            "year": "2006"
+        },
+        {
+            "title": "The Wrong Man",
+            "year": "2006"
+        },
+        {
+            "title": "Alpha Dog",
+            "year": "2006"
+        },
+        {
+            "title": "That '70s Show",
+            "year": "2005"
+        },
+        {
+            "title": "Sin City",
+            "year": "2005"
+        },
+        {
+            "title": "Hostage",
+            "year": "2005"
+        },
+        {
+            "title": "Ocean's Twelve",
+            "year": "2004"
+        },
+        {
+            "title": "The Whole Ten Yards",
+            "year": "2004"
+        },
+        {
+            "title": "Charlie's Angels: Full Throttle",
+            "year": "2003"
+        },
+        {
+            "title": "Rugrats Go Wild",
+            "year": "2003"
+        },
+        {
+            "title": "Tears of the Sun",
+            "year": "2003"
+        },
+        {
+            "title": "True West",
+            "year": "2002"
+        },
+        {
+            "title": "Grand Champion",
+            "year": "2002"
+        },
+        {
+            "title": "Hart's War",
+            "year": "2002"
+        },
+        {
+            "title": "Bandits",
+            "year": "2001"
+        },
+        {
+            "title": "Unbreakable",
+            "year": "2000"
+        },
+        {
+            "title": "The Kid",
+            "year": "2000"
+        },
+        {
+            "title": "Friends",
+            "year": "2000"
+        },
+        {
+            "title": "The Whole Nine Yards",
+            "year": "2000"
+        },
+        {
+            "title": "The Story of Us",
+            "year": "1999"
+        },
+        {
+            "title": "The Sixth Sense",
+            "year": "1999"
+        },
+        {
+            "title": "Breakfast of Champions",
+            "year": "1999"
+        },
+        {
+            "title": "Ally McBeal",
+            "year": "1999"
+        },
+        {
+            "title": "Apocalypse",
+            "year": "1998"
+        },
+        {
+            "title": "The Siege",
+            "year": "1998"
+        },
+        {
+            "title": "The Fifth Element",
+            "year": "1998"
+        },
+        {
+            "title": "Armageddon",
+            "year": "1998"
+        },
+        {
+            "title": "Mercury Rising",
+            "year": "1998"
+        },
+        {
+            "title": "The Jackal",
+            "year": "1997"
+        },
+        {
+            "title": "Mad About You",
+            "year": "1997"
+        },
+        {
+            "title": "The Fifth Element",
+            "year": "1997"
+        },
+        {
+            "title": "Bruno the Kid: The Animated Movie",
+            "year": "1996"
+        },
+        {
+            "title": "Beavis and Butt-Head Do America",
+            "year": "1996"
+        },
+        {
+            "title": "Bruno the Kid",
+            "year": "1996"
+        },
+        {
+            "title": "Last Man Standing",
+            "year": "1996"
+        },
+        {
+            "title": "Twelve Monkeys",
+            "year": "1995"
+        },
+        {
+            "title": "Four Rooms",
+            "year": "1995"
+        },
+        {
+            "title": "Die Hard: With a Vengeance",
+            "year": "1995"
+        },
+        {
+            "title": "Nobody's Fool",
+            "year": "1994"
+        },
+        {
+            "title": "Color of Night",
+            "year": "1994"
+        },
+        {
+            "title": "North",
+            "year": "1994"
+        },
+        {
+            "title": "Pulp Fiction",
+            "year": "1994"
+        },
+        {
+            "title": "Striking Distance",
+            "year": "1993"
+        },
+        {
+            "title": "Loaded Weapon 1",
+            "year": "1993"
+        },
+        {
+            "title": "Death Becomes Her",
+            "year": "1992"
+        },
+        {
+            "title": "The Player",
+            "year": "1992"
+        },
+        {
+            "title": "The Last Boy Scout",
+            "year": "1991"
+        },
+        {
+            "title": "Billy Bathgate",
+            "year": "1991"
+        },
+        {
+            "title": "Hudson Hawk",
+            "year": "1991"
+        },
+        {
+            "title": "Mortal Thoughts",
+            "year": "1991"
+        },
+        {
+            "title": "The Bonfire of the Vanities",
+            "year": "1990"
+        },
+        {
+            "title": "Look Who's Talking Too",
+            "year": "1990"
+        },
+        {
+            "title": "Die Hard 2",
+            "year": "1990"
+        },
+        {
+            "title": "Look Who's Talking",
+            "year": "1989"
+        },
+        {
+            "title": "In Country",
+            "year": "1989"
+        },
+        {
+            "title": "Moonlighting",
+            "year": "1985-1989"
+        },
+        {
+            "title": "Die Hard",
+            "year": "1988"
+        },
+        {
+            "title": "Sunset",
+            "year": "1988"
+        },
+        {
+            "title": "Bruce Willis: Respect Yourself",
+            "year": "1987"
+        },
+        {
+            "title": "Blind Date",
+            "year": "1987"
+        },
+        {
+            "title": "The Return of Bruno",
+            "year": "1987"
+        },
+        {
+            "title": "Seagram's: At a Bar",
+            "year": "1986"
+        },
+        {
+            "title": "The New Twilight Zone",
+            "year": "1985"
+        },
+        {
+            "title": "Miami Vice",
+            "year": "1984"
+        },
+        {
+            "title": "The Verdict",
+            "year": "1982"
+        },
+        {
+            "title": "Ein Guru kommt",
+            "year": "1980"
+        },
+        {
+            "title": "The First Deadly Sin",
+            "year": "1980"
+        }
+    ]
+}
