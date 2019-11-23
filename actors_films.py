@@ -1,5 +1,7 @@
 import argparse
 from bs4 import BeautifulSoup
+import datetime
+import json
 import requests
 
 
@@ -22,8 +24,20 @@ parser = argparse.ArgumentParser()
 parser.add_argument(
     "actor", help="name of actor for which films will be displayed", type=str
 )
+
+parser.add_argument(
+    "--descending", help="return the movie list from most to least recent", action="store_true"
+)
+
+parser.add_argument(
+    "--save-to-disk", help="save the output to a JSON document on disk", action="store_true"
+)
+
 arguments = parser.parse_args()
 actor_search_term = arguments.actor
+save_to_disk = arguments.save_to_disk
+
+order = 1 if arguments.descending else -1
 
 # s=nm query param searches for celebs
 response = requests.get(f"https://www.imdb.com/find?s=nm&q={actor_search_term}&ref_=nv_sr_sm")
@@ -97,7 +111,7 @@ response = requests.get(f"https://www.imdb.com{actor.slug}#actor")
 
 # the returned HTML from the page is not nicely broken into a parent-children
 # structure for the lists of films under the actor/producer/... sections
-# so we forceably cut out everything before and after the actor tag before 
+# so we forceably cut out everything before and after the actor tag before
 # putting it into beautiful soup
 start_cut_index = response.text.find('<a name="actor">Actor</a>')
 trimmed_response = response.text[start_cut_index:]
@@ -120,6 +134,16 @@ for movie in bs.find_all(class_="filmo-row"):
 
 
 count = 1
-for movie in movies:  
+for movie in movies[::order]:
     print(f"{count}) {movie.title}, {movie.year}")
     count += 1
+
+
+if save_to_disk:
+    contents = dict(
+        actor=actor_search_term, 
+        movies=[dict(title=movie.title, year=movie.year) for movie in movies[::order]]
+        )
+    # contents = json.dumps(contents, indent=4)
+    with open(f"{actor_search_term}-{datetime.datetime.now()}.json", "x") as f:
+        json.dump(contents, f, indent=4)

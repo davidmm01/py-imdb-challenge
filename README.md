@@ -3,7 +3,37 @@
 A programming challenge to retrieve the films that actors have appeared in from imdb
 
 # Usage
-To do
+
+## Set up
+
+First create a safe environment to run the program from:
+
+`python3 -m venv venv`
+
+`. ./venv/bin/activate`
+
+`pip3 install -rrequiements.txt`
+
+## Run it
+
+`python3 actors_films.py <ACTOR NAME>`
+
+Optional arguments:
+
+`--descending` can be supplied to return the films from most to least recent
+
+`--save-to-disk` will save the additionally save the output of the program in JSON to a file on disk
+
+## Example 
+
+`python3 actors_films.py "will ferrell" --descending --save-to-disk`
+
+
+# Good example Candidates
+
+`bruce willis` has many films and is the only actor by that name.
+
+`will ferrell` has many films and there are 3 people by that name in imdb.
 
 # What's the source of the data?
 
@@ -26,4 +56,4 @@ This project makes use of pip-tool's `pip-compile` tool for managing its require
 
 `pip-compile`
 
-`pip install -rrequirements.txt`
+`pip3 install -rrequirements.txt`
