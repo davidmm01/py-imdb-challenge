@@ -2,6 +2,10 @@
 
 A programming challenge to retrieve the films that actors have appeared in from imdb
 
+# Known Bugs
+
+Currently does not work for female actresses, since their imdb listing is for 'Actress' not 'Actor' in the html tags.  Fix this if time permits.
+
 # Usage
 
 ## Set up
