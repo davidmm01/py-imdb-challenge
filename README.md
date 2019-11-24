@@ -12,7 +12,7 @@ First create a safe environment to run the program from:
 
 `. ./venv/bin/activate`
 
-`pip3 install -rrequiements.txt`
+`pip3 install -rrequirements.txt`
 
 ## Run it
 
