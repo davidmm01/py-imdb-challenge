@@ -2,10 +2,6 @@
 
 A programming challenge to retrieve the films that actors have appeared in from imdb
 
-# Known Bugs
-
-Currently does not work for female actresses, since their imdb listing is for 'Actress' not 'Actor' in the html tags.  Fix this if time permits.
-
 # Usage
 
 ## Set up
@@ -38,6 +34,8 @@ Optional arguments:
 `bruce willis` has many films and is the only actor by that name.
 
 `will ferrell` has many films and there are 3 people by that name in imdb.
+
+`emma stone` is a name shared by many actresses and uses female html tags (actress as compared to actor above)
 
 # What's the source of the data?
 

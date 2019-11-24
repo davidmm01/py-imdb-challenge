@@ -125,9 +125,13 @@ def get_movies(actor):
     # so we forceably cut out everything before and after the actor tag before
     # putting it into beautiful soup
     start_cut_index = raw_html.find('<a name="actor">Actor</a>')
+
+    if start_cut_index == -1:
+        start_cut_index = raw_html.find('<a name="actress">Actress</a>')
+
     trimmed_html = raw_html[start_cut_index:]
-    # skip the first 8 chars, since they already match
-    end_cut_index = trimmed_html[8:].find('<a name="')
+    # skip the first 12 chars, since they already match
+    end_cut_index = trimmed_html[12:].find('<a name="')
     trimmed_html = trimmed_html[0:end_cut_index]
 
     bs = BeautifulSoup(trimmed_html, features="html.parser")
